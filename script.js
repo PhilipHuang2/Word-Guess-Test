@@ -1,7 +1,7 @@
 var button = document.querySelector("#start");
 var timer = document.querySelector('#timer');
 
-var secondsLeft = 61;
+var secondsLeft = 4;
 
 button.addEventListener("click", function(){
 // this button is suppose to start the game
@@ -16,6 +16,7 @@ function setTime( ) {
         {
             //stopping the setInterval
             clearInterval(timeInterval);
+            alert("Blah");
             //telling user they failed.
         }
 
